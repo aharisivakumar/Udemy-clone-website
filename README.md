@@ -20,6 +20,9 @@ A simple **Udemy Clone Website** created using **HTML5** and **CSS3**. This proj
 * HTML5
 * CSS3
 
+  ## How to view
+you csan access my portfolio website by visiting [link] free to explore the content and get in touch!
+
 ## Project Structure
 
 * Navigation Bar
