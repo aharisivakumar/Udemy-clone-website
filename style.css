@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+      font-family: "Gabarito", sans-serif;
+    
+}
+.navbar{
+    padding:10px ;
+    display: flex;
+    justify-content:space-between;
+    border-bottom: solid 1px black;
+    gap: 10px;
+    align-items: center;
+}
+.navbar__s1__title{
+    color: #a435f0;
+}
+.navbar__s2{
+    padding: 10px;
+    border:solid 1px black;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.navbar__s2 input{
+    border: none;
+    width: 80%;
+    font-size: 20px;
+}
+.navbar__s2 input:focus{
+    outline: none;
+}
+.navbar__s3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.categories{
+    display: flex;
+    padding: 20px;
+    border-bottom: solid 1px black;
+    justify-content: space-between;
+}
+.categories p{
+    background-color:purple ;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+.categories p:hover{
+    cursor: pointer;
+    background-color: burlywood;
+}
+
+.sale-img img{
+    width: 100%;
+}
+.recommended{
+    padding: 10px;
+}
+.recommended__container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-top:10px ;
+}
+.course-card{
+    width:270px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    height: 380px;
+
+}
+.course-card img{
+    padding-left: 30px;
+    padding: 10px;
+    width: 80%;
+    height: 50%;
+    padding-top: 30px;
+    border-radius: 5px;
+}
+.course-card button{
+    background-color:#6a5acd;
+    color: black;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+.course-card button:hover{
+    background-color:burlywood;
+}
+.topics{
+    padding: 10px;
+}
+.topics__container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.topics__container p{
+    border: solid grey 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.topics__container p:hover{
+    background-color: blue;
+    color: chartreuse;
+}
+.popular{
+    padding: 10px;
+}
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+.footer{
+    padding: 10px;
+    background-color: black;
+    color: whitesmoke;
+}
+.footer__one {
+    display: flex;
+}
+.footer__one p{
+    margin: 20px;
+}
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
